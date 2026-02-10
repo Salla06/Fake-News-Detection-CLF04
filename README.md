@@ -14,6 +14,7 @@
 
 - Lien vers le Dashboard : https://fcc-fake-news-detector-v2-2mn9kgrp73hiqqywkkmxth.streamlit.app/
 
+- API : https://fcc-fake-news-detector-v2.onrender.com
 
 ## Table des Matières
 
@@ -300,7 +301,7 @@ fcc-fake-news-detection/
 #### 1. Cloner le dépôt
 
 ```bash
-git clone https://github.com/votre-username/fcc-fake-news-detection.git
+git clone https://github.com/Salla06/Fake-News-Detection-CLF04.git
 cd fcc-fake-news-detection
 ```
 
@@ -518,10 +519,6 @@ Les scores exceptionnels (>99%) reflètent cette séparabilité artificielle plu
 - Ajouter du fact-checking externe
 - Tester sur des données en conditions réelles
 
----
-**Liens** :
-- Application web : [À compléter]
-- API REST : [À compléter]
 
 ---
 
