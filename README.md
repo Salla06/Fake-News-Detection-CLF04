@@ -9,6 +9,11 @@
 ![Statut](https://img.shields.io/badge/Statut-Projet%20Académique-yellow)
 
 ---
+## Ressources Principales
+- Lien de la présentation : https://www.canva.com/design/DAHA30ihx2A/VUNYcR4X5F3GEYKT5rXcyQ/view?utm_content=DAHA30ihx2A&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h3218f27538
+
+- Lien vers le Dashboard : https://fcc-fake-news-detector-v2-2mn9kgrp73hiqqywkkmxth.streamlit.app/
+
 
 ## Table des Matières
 
