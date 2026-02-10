@@ -34,7 +34,7 @@ Projet académique développé dans le cadre d'un cours de **Natural Language Pr
 
 - **Approche comparative** : Évaluation de 6 modèles (4 ML classiques + 2 DL)
 - **Dataset** : 32,456 articles (Kaggle Fake News)
-- **Meilleure performance** : Random Forest avec 99.60% F1-Score
+- **Meilleure performance** : Random Forest avec 99.56% d'accuracy
 - **Livrables** : Notebooks de recherche + Application web déployée
 
 ### Contexte Académique
@@ -104,7 +104,7 @@ Exploration des données → Prétraitement NLP → Modèles ML Classiques
 | **Naive Bayes** | Classificateur probabiliste | Référence rapide |
 
 **Configuration TF-IDF** :
-- Vocabulaire : 5,000 features
+- Vocabulaire : 10000 features
 - N-grammes : (1, 2) - unigrammes et bigrammes
 - Fréquence document : min=1, max=0.8
 
@@ -139,12 +139,14 @@ Embedding(10000, 100) → Bidirectional(LSTM(64))
 
 | Modèle | Type | Accuracy | Precision | Recall | F1-Score |
 |--------|------|----------|-----------|--------|----------|
-| **Random Forest** | ML Classique | 99.56% | 99.59% | 99.62% | **99.60%** |
-| **Linear SVM** | ML Classique | 99.48% | 99.44% | 99.62% | **99.53%** |
-| **Logistic Regression** | ML Classique | 98.88% | 98.60% | 99.38% | **98.99%** |
-| **Naive Bayes** | ML Classique | 95.28% | 95.94% | 95.43% | **95.68%** |
-| **CNN** | Deep Learning | En cours | En cours | En cours | **TBD** |
-| **BiLSTM** | Deep Learning | En cours | En cours | En cours | **TBD** |
+| **Random Forest** | ML Classique | **99.56%** | 99.59% | 99.62% | 99.60% |
+| **Linear SVM** | ML Classique | **99.48%** | 99.44% | 99.62% | 99.53% |
+| **Logistic Regression** | ML Classique | **98.88%** | 98.60% | 99.38% | 98.99% |
+| **Naive Bayes** | ML Classique | **95.28%** | 95.94% | 95.43% | 95.68% |
+| **CNN** | Deep Learning | **En cours** | En cours | En cours | TBD |
+| **BiLSTM** | Deep Learning | **En cours** | En cours | En cours | TBD |
+
+**Note** : L'accuracy a été choisie comme métrique principale d'évaluation pour la comparaison des modèles.
 
 ### Statistiques du Dataset
 
@@ -456,12 +458,6 @@ Le dataset Kaggle présente un **biais structurel majeur** :
 
 Les scores exceptionnels (>99%) reflètent cette séparabilité artificielle plutôt qu'une capacité de généralisation réelle.
 
-### Rigueur Académique
-
-Cette analyse critique fait partie intégrante du projet académique et démontre :
-- La capacité à identifier les biais méthodologiques
-- L'importance d'une évaluation au-delà des métriques brutes
-- La conscience des limites de généralisation
 
 ### Recommandations pour Amélioration
 
@@ -471,16 +467,7 @@ Cette analyse critique fait partie intégrante du projet académique et démontr
 - Tester sur des données en conditions réelles
 
 ---
-
-## Contact
-
-**Auteur** : Mame Ndeye  
-**Institution** : Federal Communications Commission  
-**Cours** : Natural Language Processing  
-**Année** : 2024-2025
-
 **Liens** :
-- GitHub : [À compléter]
 - Application web : [À compléter]
 - API REST : [À compléter]
 
@@ -495,5 +482,4 @@ Cette analyse critique fait partie intégrante du projet académique et démontr
 
 ---
 
-**Projet académique développé avec rigueur méthodologique - FCC NLP Course 2024-2025**
-
+**Projet académique - NLP Course 2024-2025**
